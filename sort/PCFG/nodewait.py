@@ -1,0 +1,10 @@
+graph.add_edge('_taskFunc8__exit','_thrFunc0___bb6',color='green')
+
+    graph.add_edge('_taskFunc2__exit', 'cilksort_par__bb16__32', color='green')
+    graph.add_edge('_taskFunc3__exit', 'cilksort_par__bb16__32', color='green')
+    graph.add_edge('_taskFunc4__exit', 'cilksort_par__bb16__32', color='green')
+    graph.add_edge('_taskFunc5__exit', 'cilksort_par__bb16__32', color='green')
+    graph.add_edge('_taskFunc6__exit', 'cilksort_par__bb16__35', color='green')
+    graph.add_edge('_taskFunc7__exit', 'cilksort_par__bb16__35', color='green')
+    graph.add_edge('_taskFunc0__exit', 'cilkmerge_par__bb59__40', color='green')
+    graph.add_edge('_taskFunc1__exit', 'cilkmerge_par__bb59__40', color='green')

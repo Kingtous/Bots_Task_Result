@@ -1,0 +1,49 @@
+digraph "" {
+  size="10,8";
+  rankdir=TB;
+  center=1;
+  rotate=0;
+   {
+   node [shape=plaintext,fontsize=10];
+   "Call graph for strassen_ompi_trim.alf\nMon Mar 25 23:55:44 2019"
+   }
+   0 [label="_thrFunc0_\n(size=23)",fontsize=7]
+   1 [label="ort_leaving_single\n(size=1)",fontsize=7]
+   2 [label="_taskFunc7_\n(size=34)",fontsize=7]
+   3 [label="ort_taskenv_free\n(size=3)",fontsize=7]
+   4 [label="OptimizedStrassenMultiply_par\n(size=416)",fontsize=7]
+   5 [label="MultiplyByDivideAndConquer\n(size=213)",fontsize=7]
+   6 [label="FastAdditiveNaiveMatrixMultiply\n(size=155)",fontsize=7]
+   7 [label="FastNaiveMatrixMultiply\n(size=167)",fontsize=7]
+   8 [label="_taskFunc0_\n(size=37)",fontsize=7]
+   9 [label="_taskFunc1_\n(size=31)",fontsize=7]
+   10 [label="_taskFunc2_\n(size=31)",fontsize=7]
+   11 [label="_taskFunc3_\n(size=34)",fontsize=7]
+   12 [label="_taskFunc4_\n(size=40)",fontsize=7]
+   13 [label="_taskFunc5_\n(size=37)",fontsize=7]
+   14 [label="_taskFunc6_\n(size=37)",fontsize=7]
+   15 [label="ort_taskwait\n(size=2)",fontsize=7]
+   0->1
+   0->2
+   0->15
+   2->3
+   2->4
+   4->5
+   4->8
+   4->9
+   4->10
+   4->11
+   4->12
+   4->13
+   4->14
+   4->15
+   5->7
+   5->6
+   8->3
+   9->3
+   10->3
+   11->3
+   12->3
+   13->3
+   14->3
+}

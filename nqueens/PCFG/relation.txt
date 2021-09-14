@@ -1,0 +1,11 @@
+_thrFunc0_::bb::15    ort_mysingle
+_thrFunc0_::bb8::10    nqueens
+_thrFunc0_::bb17    ort_leaving_single
+_thrFunc0_::bb18    ort_taskwait
+nqueens::bb10::13    memset
+nqueens::bb26    _taskFunc0_
+nqueens::bb31    ort_taskwait
+_taskFunc0_::bb::56    memcpy
+_taskFunc0_::bb::67    ok
+_taskFunc0_::bb41::9    nqueens
+_taskFunc0_::bb52::2    ort_taskenv_free

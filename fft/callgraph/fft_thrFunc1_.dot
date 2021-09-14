@@ -1,0 +1,183 @@
+digraph "" {
+  size="10,8";
+  rankdir=TB;
+  center=1;
+  rotate=0;
+   {
+   node [shape=plaintext,fontsize=10];
+   "Call graph for fft_ompi_trim.alf\nMon Mar 25 23:58:21 2019"
+   }
+   0 [label="_thrFunc1_\n(size=26)",fontsize=7]
+   1 [label="ort_leaving_single\n(size=1)",fontsize=7]
+   2 [label="ort_taskwait\n(size=2)",fontsize=7]
+   3 [label="_taskFunc40_\n(size=34)",fontsize=7]
+   4 [label="fft_aux\n(size=119)",fontsize=7]
+   5 [label="fft_base_32\n(size=1423)",fontsize=7]
+   6 [label="fft_base_16\n(size=575)",fontsize=7]
+   7 [label="fft_base_2\n(size=31)",fontsize=7]
+   8 [label="fft_base_8\n(size=223)",fontsize=7]
+   9 [label="fft_base_4\n(size=83)",fontsize=7]
+   10 [label="_taskFunc27_\n(size=21)",fontsize=7]
+   11 [label="fft_unshuffle_32\n(size=222)",fontsize=7]
+   12 [label="_taskFunc25_\n(size=28)",fontsize=7]
+   13 [label="ort_taskenv_free\n(size=3)",fontsize=7]
+   14 [label="_taskFunc26_\n(size=28)",fontsize=7]
+   15 [label="_taskFunc28_\n(size=21)",fontsize=7]
+   16 [label="fft_unshuffle_16\n(size=126)",fontsize=7]
+   17 [label="_taskFunc21_\n(size=28)",fontsize=7]
+   18 [label="_taskFunc22_\n(size=28)",fontsize=7]
+   19 [label="_taskFunc29_\n(size=21)",fontsize=7]
+   20 [label="fft_unshuffle_8\n(size=78)",fontsize=7]
+   21 [label="_taskFunc17_\n(size=28)",fontsize=7]
+   22 [label="_taskFunc18_\n(size=28)",fontsize=7]
+   23 [label="_taskFunc30_\n(size=21)",fontsize=7]
+   24 [label="fft_unshuffle_4\n(size=54)",fontsize=7]
+   25 [label="_taskFunc13_\n(size=28)",fontsize=7]
+   26 [label="_taskFunc14_\n(size=28)",fontsize=7]
+   27 [label="_taskFunc31_\n(size=21)",fontsize=7]
+   28 [label="fft_unshuffle_2\n(size=42)",fontsize=7]
+   29 [label="_taskFunc9_\n(size=28)",fontsize=7]
+   30 [label="_taskFunc10_\n(size=28)",fontsize=7]
+   31 [label="unshuffle\n(size=82)",fontsize=7]
+   32 [label="_taskFunc2_\n(size=32)",fontsize=7]
+   33 [label="_taskFunc3_\n(size=32)",fontsize=7]
+   34 [label="_taskFunc32_\n(size=37)",fontsize=7]
+   35 [label="_taskFunc33_\n(size=34)",fontsize=7]
+   36 [label="fft_twiddle_2\n(size=98)",fontsize=7]
+   37 [label="_taskFunc7_\n(size=40)",fontsize=7]
+   38 [label="_taskFunc8_\n(size=40)",fontsize=7]
+   39 [label="_taskFunc34_\n(size=34)",fontsize=7]
+   40 [label="fft_twiddle_4\n(size=194)",fontsize=7]
+   41 [label="_taskFunc11_\n(size=40)",fontsize=7]
+   42 [label="_taskFunc12_\n(size=40)",fontsize=7]
+   43 [label="_taskFunc35_\n(size=34)",fontsize=7]
+   44 [label="fft_twiddle_8\n(size=422)",fontsize=7]
+   45 [label="_taskFunc15_\n(size=40)",fontsize=7]
+   46 [label="_taskFunc16_\n(size=40)",fontsize=7]
+   47 [label="_taskFunc36_\n(size=34)",fontsize=7]
+   48 [label="fft_twiddle_16\n(size=950)",fontsize=7]
+   49 [label="_taskFunc19_\n(size=40)",fontsize=7]
+   50 [label="_taskFunc20_\n(size=40)",fontsize=7]
+   51 [label="_taskFunc37_\n(size=34)",fontsize=7]
+   52 [label="fft_twiddle_32\n(size=2150)",fontsize=7]
+   53 [label="_taskFunc23_\n(size=40)",fontsize=7]
+   54 [label="_taskFunc24_\n(size=40)",fontsize=7]
+   55 [label="_taskFunc38_\n(size=38)",fontsize=7]
+   56 [label="fft_twiddle_gen\n(size=22)",fontsize=7]
+   57 [label="_taskFunc6_\n(size=44)",fontsize=7]
+   58 [label="_taskFunc5_\n(size=44)",fontsize=7]
+   59 [label="_taskFunc4_\n(size=44)",fontsize=7]
+   60 [label="fft_twiddle_gen_1\n(size=86)",fontsize=7]
+   0->1
+   0->2
+   0->3
+   3->4
+   3->13
+   4->5
+   4->6
+   4->7
+   4->8
+   4->9
+   4->10
+   4->15
+   4->19
+   4->23
+   4->27
+   4->31
+   4->2
+   4->34
+   4->2
+   4->35
+   4->39
+   4->43
+   4->47
+   4->51
+   4->55
+   4->2
+   10->11
+   10->13
+   11->12
+   11->14
+   11->2
+   12->13
+   14->13
+   15->16
+   15->13
+   16->17
+   16->18
+   16->2
+   17->13
+   18->13
+   19->20
+   19->13
+   20->21
+   20->22
+   20->2
+   21->13
+   22->13
+   23->24
+   23->13
+   24->25
+   24->26
+   24->2
+   25->13
+   26->13
+   27->13
+   27->28
+   28->29
+   28->30
+   28->2
+   29->13
+   30->13
+   31->32
+   31->33
+   31->2
+   32->13
+   33->13
+   34->13
+   35->36
+   35->13
+   36->37
+   36->38
+   36->2
+   37->13
+   38->13
+   39->40
+   39->13
+   40->41
+   40->42
+   40->2
+   41->13
+   42->13
+   43->44
+   43->13
+   44->45
+   44->46
+   44->2
+   45->13
+   46->13
+   47->48
+   47->13
+   48->49
+   48->50
+   48->2
+   49->13
+   50->13
+   51->13
+   51->52
+   52->53
+   52->54
+   52->2
+   53->13
+   54->13
+   55->56
+   55->13
+   56->57
+   56->2
+   56->58
+   56->59
+   57->13
+   58->13
+   59->60
+   59->13
+}

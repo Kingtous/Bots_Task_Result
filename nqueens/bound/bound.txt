@@ -1,0 +1,4 @@
+nqueens__bb22__3:14
+nqueens__bb32__3:14
+ok__bb3__3:14
+ok__bb15__3:13

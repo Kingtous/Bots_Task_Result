@@ -1,0 +1,16 @@
+fft_aux__bb80__3:16
+fft_unshuffle_32__bb16__3:1
+fft_unshuffle_16__bb16__3:2097152
+fft_unshuffle_8__bb16__3:1
+fft_unshuffle_4__bb16__3:1
+fft_unshuffle_2__bb16__3:1
+unshuffle__bb20__3:1
+unshuffle__bb29__3:1
+unshuffle__bb77__3:1
+fft_twiddle_2__bb21__3:1
+fft_twiddle_4__bb21__3:1
+fft_twiddle_8__bb21__3:1
+fft_twiddle_16__bb21__3:2097152
+fft_twiddle_32__bb21__3:1
+fft_twiddle_gen_1__bb9__3:1
+fft_twiddle_gen_1__bb20__3:1

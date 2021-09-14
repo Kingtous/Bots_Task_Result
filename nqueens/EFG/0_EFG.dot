@@ -1,0 +1,265 @@
+digraph "CFG" {
+fontsize=10;
+orientation="portrait";
+rankdir="TB";
+size="10,8";
+nqueens__bb48 [fontsize=10, label="\"nqueens__bb48\"\nRETURN\nWCET=0", width="0.01"];
+nqueens__bb8__2 [fontsize=10, label="\"nqueens__bb8__2\"\nWCET=0", width="0.01"];
+nqueens__bb__19 [fontsize=10, label="\"nqueens__bb__19\"\nWCET=4", width="0.01"];
+nqueens__bb__13 [fontsize=10, label="\"nqueens__bb__13\"\nWCET=4", width="0.01"];
+nqueens_entry [color="white", fontsize=10, height="0.01", label="nqueens_entry", width="0.01"];
+nqueens__bb__15 [fontsize=10, label="\"nqueens__bb__15\"\nWCET=4", width="0.01"];
+nqueens__bb__22 [fontsize=10, label="\"nqueens__bb__22\"\nWCET=5", shape=diamond, width="0.01"];
+nqueens__bb8 [fontsize=10, label="\"nqueens__bb8\"\nWCET=4", width="0.01"];
+nqueens_exit [color="white", fontsize=10, label="nqueens_exit", width="0.01"];
+nqueens__bb__11 [fontsize=10, label="\"nqueens__bb__11\"\nWCET=4", width="0.01"];
+nqueens__bb [fontsize=10, label="\"nqueens__bb\"\nWCET=4", width="0.01"];
+nqueens__bb8__1 [fontsize=10, label="\"nqueens__bb8__1\"\nWCET=4", width="0.01"];
+nqueens__bb__20 [fontsize=10, label="\"nqueens__bb__20\"\nWCET=4", width="0.01"];
+nqueens__bb__9 [fontsize=10, label="\"nqueens__bb__9\"\nWCET=4", width="0.01"];
+_thrFunc0___bb__13 [fontsize=10, label="\"_thrFunc0___bb__13\"\nWCET=4", width="0.01"];
+_thrFunc0__exit [color="white", fontsize=10, label="_thrFunc0__exit", width="0.01"];
+_thrFunc0___bb8__8 [fontsize=10, label="\"_thrFunc0___bb8__8\"\nWCET=4", width="0.01"];
+_thrFunc0___bb8__11 [fontsize=10, label="\"_thrFunc0___bb8__11\"\nWCET=0", width="0.01"];
+_thrFunc0___bb17__1 [fontsize=10, label="\"_thrFunc0___bb17__1\"\nWCET=0", width="0.01"];
+_thrFunc0___bb17 [fontsize=10, label="_thrFunc0___bb17\n(_thrFunc0_)leaving_single\nWCET=13", width="0.01"];
+_thrFunc0___bb18 [color=green, fontsize=10, label="_thrFunc0___bb18\n(_thrFunc0_)taskwait\nWCET=13", style=filled, width="0.01"];
+_thrFunc0___bb [fontsize=10, label="\"_thrFunc0___bb\"\nWCET=4", width="0.01"];
+_thrFunc0___bb8__10 [fontsize=10, label="_thrFunc0___bb8__10\nCALL nqueens\nWCET=13", width="0.01"];
+_thrFunc0___bb8 [fontsize=10, label="\"_thrFunc0___bb8\"\nWCET=4", width="0.01"];
+_thrFunc0___bb__11 [fontsize=10, label="\"_thrFunc0___bb__11\"\nWCET=4", width="0.01"];
+_thrFunc0___bb8__5 [fontsize=10, label="\"_thrFunc0___bb8__5\"\nWCET=13", width="0.01"];
+_thrFunc0___bb__7 [fontsize=10, label="\"_thrFunc0___bb__7\"\nWCET=4", width="0.01"];
+_thrFunc0___bb8__6 [fontsize=10, label="\"_thrFunc0___bb8__6\"\nWCET=4", width="0.01"];
+_thrFunc0__entry [color="white", fontsize=10, height="0.01", label="_thrFunc0__entry", width="0.01"];
+_thrFunc0___bb8__2 [fontsize=10, label="\"_thrFunc0___bb8__2\"\nWCET=4", width="0.01"];
+_thrFunc0___bb__9 [fontsize=10, label="\"_thrFunc0___bb__9\"\nWCET=4", width="0.01"];
+_thrFunc0___bb__14 [fontsize=10, label="\"_thrFunc0___bb__14\"\nWCET=4", width="0.01"];
+_thrFunc0___bb__15 [fontsize=10, label="_thrFunc0___bb__15\n(_thrFunc0_)mysingle\nWCET=13", width="0.01"];
+_thrFunc0___bb8__7 [fontsize=10, label="\"_thrFunc0___bb8__7\"\nWCET=4", width="0.01"];
+_thrFunc0___bb__17 [fontsize=10, label="\"_thrFunc0___bb__17\"\nWCET=5", shape=diamond, width="0.01"];
+_thrFunc0___bb8__9 [fontsize=10, label="\"_thrFunc0___bb8__9\"\nWCET=4", width="0.01"];
+nqueens__bb48 -> nqueens_exit  [key=0];
+nqueens__bb8__2 -> nqueens__bb48  [key=0];
+nqueens__bb__19 -> nqueens__bb__20  [key=0];
+nqueens__bb__13 -> nqueens__bb__15  [key=0];
+nqueens_entry -> nqueens__bb  [key=0];
+nqueens__bb__15 -> nqueens__bb__19  [key=0];
+nqueens__bb__22 -> nqueens__bb8  [key=0];
+nqueens__bb8 -> nqueens__bb8__1  [key=0];
+nqueens_exit -> _thrFunc0___bb8__11  [color=red, key=0];
+nqueens__bb__11 -> nqueens__bb__13  [key=0];
+nqueens__bb -> nqueens__bb__9  [key=0];
+nqueens__bb8__1 -> nqueens__bb8__2  [key=0];
+nqueens__bb__20 -> nqueens__bb__22  [key=0];
+nqueens__bb__9 -> nqueens__bb__11  [key=0];
+_thrFunc0___bb__13 -> _thrFunc0___bb__14  [key=0];
+_thrFunc0___bb8__8 -> _thrFunc0___bb8__9  [key=0];
+_thrFunc0___bb8__11 -> _thrFunc0___bb17  [key=0];
+_thrFunc0___bb17__1 -> _thrFunc0___bb18  [key=0];
+_thrFunc0___bb17 -> _thrFunc0___bb17__1  [key=0];
+_thrFunc0___bb18 -> _thrFunc0__exit  [key=0];
+_thrFunc0___bb -> _thrFunc0___bb__7  [key=0];
+_thrFunc0___bb8__10 -> nqueens_entry  [color=blue, key=0];
+_thrFunc0___bb8 -> _thrFunc0___bb8__2  [key=0];
+_thrFunc0___bb__11 -> _thrFunc0___bb__13  [key=0];
+_thrFunc0___bb8__5 -> _thrFunc0___bb8__6  [key=0];
+_thrFunc0___bb__7 -> _thrFunc0___bb__9  [key=0];
+_thrFunc0___bb8__6 -> _thrFunc0___bb8__7  [key=0];
+_thrFunc0__entry -> _thrFunc0___bb  [key=0];
+_thrFunc0___bb8__2 -> _thrFunc0___bb8__5  [key=0];
+_thrFunc0___bb__9 -> _thrFunc0___bb__11  [key=0];
+_thrFunc0___bb__14 -> _thrFunc0___bb__15  [key=0];
+_thrFunc0___bb__15 -> _thrFunc0___bb__17  [key=0];
+_thrFunc0___bb8__7 -> _thrFunc0___bb8__8  [key=0];
+_thrFunc0___bb__17 -> _thrFunc0___bb8  [key=0];
+_thrFunc0___bb8__9 -> _thrFunc0___bb8__10  [key=0];
+subgraph "cluster__thrFunc0_" {
+label=_thrFunc0_
+style="bold"
+color="blue"
+"_thrFunc0___bb"
+"_thrFunc0___bb__7"
+"_thrFunc0___bb__9"
+"_thrFunc0___bb__11"
+"_thrFunc0___bb__13"
+"_thrFunc0___bb__14"
+"_thrFunc0___bb__15"
+"_thrFunc0___bb__17"
+"_thrFunc0___bb8"
+"_thrFunc0___bb8__2"
+"_thrFunc0___bb8__5"
+"_thrFunc0___bb8__6"
+"_thrFunc0___bb8__7"
+"_thrFunc0___bb8__8"
+"_thrFunc0___bb8__9"
+"_thrFunc0___bb8__10"
+"_thrFunc0___bb8__11"
+"_thrFunc0___bb17"
+"_thrFunc0___bb17__1"
+"_thrFunc0___bb18"
+
+"_thrFunc0__entry"
+"_thrFunc0__exit"
+}
+subgraph "cluster_nqueens" {
+label=nqueens
+style="bold"
+"nqueens__bb"
+"nqueens__bb__9"
+"nqueens__bb__11"
+"nqueens__bb__13"
+"nqueens__bb__15"
+"nqueens__bb__19"
+"nqueens__bb__20"
+"nqueens__bb__22"
+"nqueens__bb8"
+"nqueens__bb8__1"
+"nqueens__bb8__2"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"nqueens__bb48"
+"nqueens_entry"
+"nqueens_exit"
+}
+subgraph "cluster__taskFunc0_" {
+label=_taskFunc0_
+style="bold"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+subgraph "cluster_ok" {
+label=ok
+style="bold"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+}

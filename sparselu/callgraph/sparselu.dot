@@ -1,0 +1,40 @@
+digraph "" {
+  size="10,8";
+  rankdir=TB;
+  center=1;
+  rotate=0;
+   {
+   node [shape=plaintext,fontsize=10];
+   "Call graph for sparselu_ompi_trim.alf\nMon Mar 25 23:54:25 2019"
+   }
+   0 [label="_thrFunc0_\n(size=23)",fontsize=7]
+   1 [label="_taskFunc3_\n(size=141)",fontsize=7]
+   2 [label="_taskFunc0_\n(size=29)",fontsize=7]
+   3 [label="fwd\n(size=51)",fontsize=7]
+   4 [label="ort_taskenv_free\n(size=3)",fontsize=7]
+   5 [label="lu0\n(size=66)",fontsize=7]
+   6 [label="_taskFunc1_\n(size=29)",fontsize=7]
+   7 [label="bdiv\n(size=66)",fontsize=7]
+   8 [label="ort_taskwait\n(size=2)",fontsize=7]
+   9 [label="_taskFunc2_\n(size=53)",fontsize=7]
+   10 [label="allocate_clean_block\n(size=40)",fontsize=7]
+   11 [label="bmod\n(size=51)",fontsize=7]
+   12 [label="ort_leaving_single\n(size=1)",fontsize=7]
+   0->1
+   0->8
+   0->12
+   1->2
+   1->5
+   1->6
+   1->8
+   1->9
+   1->8
+   1->4
+   2->3
+   2->4
+   6->7
+   6->4
+   9->10
+   9->4
+   9->11
+}

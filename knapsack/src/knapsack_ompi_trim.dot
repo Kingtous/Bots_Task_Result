@@ -1,0 +1,180 @@
+digraph G {
+  ratio=0.500000;
+  "UV __isoc99_fscanf (396)" [color="#A02040", label="__isoc99_fscanf",
+                              shape=diamond, style="dotted", ];
+  "UV ort_taskwait (20)" [color="#804000", label="ort_taskwait",
+                          shape=diamond, style="bold", ];
+  "UV ort_taskenv_free (23)" [color="#80C080", label="ort_taskenv_free",
+                              shape=diamond, style="bold", ];
+  "UV ort_execute_parallel (2329)" [color="#3040C0",
+                                    label="ort_execute_parallel",
+                                    shape=diamond, style="dotted", ];
+  "UV ort_leaving_single (29)" [color="#8040C0", label="ort_leaving_single",
+                                shape=diamond, style="bold", ];
+  "UV ort_atomic_begin (31)" [color="#80C0C0", label="ort_atomic_begin",
+                              shape=diamond, style="bold", ];
+  "UV ort_atomic_end (32)" [color="#400000", label="ort_atomic_end",
+                            shape=diamond, style="bold", ];
+  "UV ort_barrier_me (33)" [color="#400080", label="ort_barrier_me",
+                            shape=diamond, style="bold", ];
+  "UV ort_mysingle (2345)" [color="#7000C0", label="ort_mysingle",
+                            shape=diamond, style="dotted", ];
+  "UV compare (2090)" [color="#508040", label="compare", shape=diamond,
+                       style="bold", ];
+  "UV ort_critical_begin (2349)" [color="#F000C0",
+                                  label="ort_critical_begin", shape=diamond,
+                                  style="dotted", ];
+  "UV ort_critical_end (2351)" [color="#F080C0", label="ort_critical_end",
+                                shape=diamond, style="dotted", ];
+  "UV read_input (2101)" [color="#D04080", label="read_input", shape=diamond,
+                          style="bold", ];
+  "UV knapsack_seq (2116)" [color="#900020", label="knapsack_seq",
+                            shape=diamond, style="bold", ];
+  "UV __bswap_16 (2377)" [color="#3000E0", label="__bswap_16", shape=diamond,
+                          style="bold", ];
+  "UV __bswap_32 (2378)" [color="#308060", label="__bswap_32", shape=diamond,
+                          style="bold", ];
+  "UV __bswap_64 (2379)" [color="#3080E0", label="__bswap_64", shape=diamond,
+                          style="bold", ];
+  "UV fclose (204)" [color="#802060", label="fclose", shape=diamond,
+                     style="dotted", ];
+  "UV __uint16_identity (2380)" [color="#B00060", label="__uint16_identity",
+                                 shape=diamond, style="bold", ];
+  "UV __uint32_identity (2381)" [color="#B000E0", label="__uint32_identity",
+                                 shape=diamond, style="bold", ];
+  "UV __uint64_identity (2382)" [color="#B08060", label="__uint64_identity",
+                                 shape=diamond, style="bold", ];
+  "UV _taskFunc0_ (2384)" [color="#304020", label="_taskFunc0_",
+                           shape=diamond, style="bold", ];
+  "UV _taskFunc1_ (2385)" [color="#3040A0", label="_taskFunc1_",
+                           shape=diamond, style="bold", ];
+  "UV _taskFunc2_ (2386)" [color="#30C020", label="_taskFunc2_",
+                           shape=diamond, style="bold", ];
+  "UV _thrFunc0_ (2387)" [color="#30C0A0", label="_thrFunc0_", shape=diamond,
+                          style="bold", ];
+  "UV knapsack_par (2134)" [color="#90C020", label="knapsack_par",
+                            shape=diamond, style="bold", ];
+  "UV ort_get_thrpriv (2265)" [color="#1060E0", label="ort_get_thrpriv",
+                               shape=diamond, style="dotted", ];
+  "UV fopen (218)" [color="#00E060", label="fopen", shape=diamond,
+                    style="dotted", ];
+  "UV fprintf_va_1 (2399)" [color="#B0C0E0", label="fprintf_va_1",
+                            shape=diamond, style="dotted", ];
+  "UV knapsack_main_seq (2149)" [color="#D000A0", label="knapsack_main_seq",
+                                 shape=diamond, style="bold", ];
+  "UV printf_va_1 (2410)" [color="#708060", label="printf_va_1",
+                           shape=diamond, style="dotted", ];
+  "UV printf_va_2 (2413)" [color="#F000E0", label="printf_va_2",
+                           shape=diamond, style="dotted", ];
+  "UV knapsack_main_par (2162)" [color="#50C020", label="knapsack_main_par",
+                                 shape=diamond, style="bold", ];
+  "UV knapsack_check (2171)" [color="#50C0E0", label="knapsack_check",
+                              shape=diamond, style="bold", ];
+  "UV qsort (1279)" [color="#C0F0E0", label="qsort", shape=diamond,
+                     style="dotted", ];
+  
+  subgraph cluster_1279 { color="#C0F0E0"; label="S 1279"; style="bold"; "UV qsort (1279)";
+     };
+  subgraph cluster_20 { color="#804000"; label="S 20"; style="bold"; "UV ort_taskwait (20)";
+     };
+  subgraph cluster_204 { color="#802060"; label="S 204"; style="bold"; "UV fclose (204)";
+     };
+  subgraph cluster_2090 { color="#508040"; label="S 2090"; style="bold"; "UV compare (2090)";
+     };
+  subgraph cluster_2101 { color="#D04080"; label="S 2101"; style="bold"; "UV read_input (2101)";
+     };
+  subgraph cluster_2116 { color="#900020"; label="S 2116"; style="bold"; "UV knapsack_seq (2116)";
+     };
+  subgraph cluster_2134 { color="#90C020"; label="S 2134"; style="bold"; "UV knapsack_par (2134)";
+     };
+  subgraph cluster_2149 { color="#D000A0"; label="S 2149"; style="bold"; "UV knapsack_main_seq (2149)";
+     };
+  subgraph cluster_2162 { color="#50C020"; label="S 2162"; style="bold"; "UV knapsack_main_par (2162)";
+     };
+  subgraph cluster_2171 { color="#50C0E0"; label="S 2171"; style="bold"; "UV knapsack_check (2171)";
+     };
+  subgraph cluster_218 { color="#00E060"; label="S 218"; style="bold"; "UV fopen (218)";
+     };
+  subgraph cluster_2265 { color="#1060E0"; label="S 2265"; style="bold"; "UV ort_get_thrpriv (2265)";
+     };
+  subgraph cluster_23 { color="#80C080"; label="S 23"; style="bold"; "UV ort_taskenv_free (23)";
+     };
+  subgraph cluster_2329 { color="#3040C0"; label="S 2329"; style="bold"; "UV ort_execute_parallel (2329)";
+     };
+  subgraph cluster_2345 { color="#7000C0"; label="S 2345"; style="bold"; "UV ort_mysingle (2345)";
+     };
+  subgraph cluster_2349 { color="#F000C0"; label="S 2349"; style="bold"; "UV ort_critical_begin (2349)";
+     };
+  subgraph cluster_2351 { color="#F080C0"; label="S 2351"; style="bold"; "UV ort_critical_end (2351)";
+     };
+  subgraph cluster_2377 { color="#3000E0"; label="S 2377"; style="bold"; "UV __bswap_16 (2377)";
+     };
+  subgraph cluster_2378 { color="#308060"; label="S 2378"; style="bold"; "UV __bswap_32 (2378)";
+     };
+  subgraph cluster_2379 { color="#3080E0"; label="S 2379"; style="bold"; "UV __bswap_64 (2379)";
+     };
+  subgraph cluster_2380 { color="#B00060"; label="S 2380"; style="bold"; "UV __uint16_identity (2380)";
+     };
+  subgraph cluster_2381 { color="#B000E0"; label="S 2381"; style="bold"; "UV __uint32_identity (2381)";
+     };
+  subgraph cluster_2382 { color="#B08060"; label="S 2382"; style="bold"; "UV __uint64_identity (2382)";
+     };
+  subgraph cluster_2384 { color="#304020"; label="S 2384"; style="bold"; "UV _taskFunc0_ (2384)";
+     };
+  subgraph cluster_2385 { color="#3040A0"; label="S 2385"; style="bold"; "UV _taskFunc1_ (2385)";
+     };
+  subgraph cluster_2386 { color="#30C020"; label="S 2386"; style="bold"; "UV _taskFunc2_ (2386)";
+     };
+  subgraph cluster_2387 { color="#30C0A0"; label="S 2387"; style="bold"; "UV _thrFunc0_ (2387)";
+     };
+  subgraph cluster_2399 { color="#B0C0E0"; label="S 2399"; style="bold"; "UV fprintf_va_1 (2399)";
+     };
+  subgraph cluster_2410 { color="#708060"; label="S 2410"; style="bold"; "UV printf_va_1 (2410)";
+     };
+  subgraph cluster_2413 { color="#F000E0"; label="S 2413"; style="bold"; "UV printf_va_2 (2413)";
+     };
+  subgraph cluster_29 { color="#8040C0"; label="S 29"; style="bold"; "UV ort_leaving_single (29)";
+     };
+  subgraph cluster_31 { color="#80C0C0"; label="S 31"; style="bold"; "UV ort_atomic_begin (31)";
+     };
+  subgraph cluster_32 { color="#400000"; label="S 32"; style="bold"; "UV ort_atomic_end (32)";
+     };
+  subgraph cluster_33 { color="#400080"; label="S 33"; style="bold"; "UV ort_barrier_me (33)";
+     };
+  subgraph cluster_396 { color="#A02040"; label="S 396"; style="bold"; "UV __isoc99_fscanf (396)";
+     };
+  
+  "UV read_input (2101)" -> "UV fclose (204)" [color="#D04080", ];
+  "UV read_input (2101)" -> "UV fopen (218)" [color="#D04080", ];
+  "UV read_input (2101)" -> "UV __isoc99_fscanf (396)" [color="#D04080", ];
+  "UV read_input (2101)" -> "UV qsort (1279)" [color="#D04080", ];
+  "UV read_input (2101)" -> "UV fprintf_va_1 (2399)" [color="#D04080", ];
+  "UV knapsack_seq (2116)" -> "UV knapsack_seq (2116)" [color="#900020", ];
+  "UV knapsack_seq (2116)" -> "UV ort_get_thrpriv (2265)" [color="#900020", ];
+  "UV _taskFunc0_ (2384)" -> "UV ort_taskenv_free (23)" [color="#304020", ];
+  "UV _taskFunc0_ (2384)" -> "UV knapsack_par (2134)" [color="#304020", ];
+  "UV _taskFunc1_ (2385)" -> "UV ort_taskenv_free (23)" [color="#3040A0", ];
+  "UV _taskFunc1_ (2385)" -> "UV knapsack_par (2134)" [color="#3040A0", ];
+  "UV _taskFunc2_ (2386)" -> "UV ort_taskenv_free (23)" [color="#30C020", ];
+  "UV _taskFunc2_ (2386)" -> "UV knapsack_par (2134)" [color="#30C020", ];
+  "UV _thrFunc0_ (2387)" -> "UV ort_taskwait (20)" [color="#30C0A0", ];
+  "UV _thrFunc0_ (2387)" -> "UV ort_leaving_single (29)" [color="#30C0A0", ];
+  "UV _thrFunc0_ (2387)" -> "UV ort_barrier_me (33)" [color="#30C0A0", ];
+  "UV _thrFunc0_ (2387)" -> "UV ort_get_thrpriv (2265)" [color="#30C0A0", ];
+  "UV _thrFunc0_ (2387)" -> "UV ort_mysingle (2345)" [color="#30C0A0", ];
+  "UV _thrFunc0_ (2387)" -> "UV ort_critical_begin (2349)" [color="#30C0A0", ];
+  "UV _thrFunc0_ (2387)" -> "UV ort_critical_end (2351)" [color="#30C0A0", ];
+  "UV _thrFunc0_ (2387)" -> "UV _taskFunc2_ (2386)" [color="#30C0A0", ];
+  "UV knapsack_par (2134)" -> "UV ort_taskwait (20)" [color="#90C020", ];
+  "UV knapsack_par (2134)" -> "UV ort_get_thrpriv (2265)" [color="#90C020", ];
+  "UV knapsack_par (2134)" -> "UV _taskFunc0_ (2384)" [color="#90C020", ];
+  "UV knapsack_par (2134)" -> "UV _taskFunc1_ (2385)" [color="#90C020", ];
+  "UV knapsack_main_seq (2149)" -> "UV knapsack_seq (2116)" [color="#D000A0", ];
+  "UV knapsack_main_seq (2149)" -> "UV ort_get_thrpriv (2265)" [color="#D000A0",
+                                                                ];
+  "UV knapsack_main_seq (2149)" -> "UV printf_va_2 (2413)" [color="#D000A0", ];
+  "UV knapsack_main_par (2162)" -> "UV ort_execute_parallel (2329)" [
+  color="#50C020", ];
+  "UV knapsack_main_par (2162)" -> "UV printf_va_1 (2410)" [color="#50C020", ];
+  
+  }

@@ -1,0 +1,12 @@
+digraph  {
+center=1;
+rankdir=TB;
+rotate=0;
+size="10,8";
+0 [fontsize=7, label="_thrFunc0_\n(size=21)"];
+2 [fontsize=7, label="_taskFunc0_\n(size=48)"];
+5 [fontsize=7, label="ort_taskwait\n(size=2)"];
+0 -> 2  [key=0];
+2 -> 2  [color=blue, key=0];
+2 -> 5  [color=green, key=0];
+}

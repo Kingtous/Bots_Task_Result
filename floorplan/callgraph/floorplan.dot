@@ -1,0 +1,30 @@
+digraph "" {
+  size="10,8";
+  rankdir=TB;
+  center=1;
+  rotate=0;
+   {
+   node [shape=plaintext,fontsize=10];
+   "Call graph for floorplan_ompi_trim.alf\nMon Mar 25 23:49:34 2019"
+   }
+   0 [label="_thrFunc0_\n(size=17)",fontsize=7]
+   1 [label="ort_leaving_single\n(size=1)",fontsize=7]
+   2 [label="ort_taskwait\n(size=2)",fontsize=7]
+   3 [label="add_cell\n(size=39)",fontsize=7]
+   4 [label="starts\n(size=180)",fontsize=7]
+   5 [label="_taskFunc0_\n(size=146)",fontsize=7]
+   6 [label="ort_atomic_begin\n(size=1)",fontsize=7]
+   7 [label="ort_atomic_end\n(size=1)",fontsize=7]
+   8 [label="lay_down\n(size=56)",fontsize=7]
+   9 [label="ort_taskenv_free\n(size=3)",fontsize=7]
+   0->1
+   0->2
+   0->3
+   3->4
+   3->2
+   5->3
+   5->6
+   5->7
+   5->8
+   5->9
+}

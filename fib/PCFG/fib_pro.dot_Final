@@ -1,0 +1,244 @@
+digraph "CFG" {
+fontsize=10;
+orientation="portrait";
+rankdir="TB";
+size="10,8";
+_thrFunc0___bb [fontsize=10, label="\"_thrFunc0___bb\"\nWCET=4", width="0.01"];
+_thrFunc0___bb__6 [fontsize=10, label="\"_thrFunc0___bb__6\"\nWCET=4", width="0.01"];
+_thrFunc0___bb__8 [fontsize=10, label="\"_thrFunc0___bb__8\"\nWCET=4", width="0.01"];
+_thrFunc0___bb__10 [fontsize=10, label="\"_thrFunc0___bb__10\"\nWCET=4", width="0.01"];
+_thrFunc0___bb__12 [fontsize=10, label="\"_thrFunc0___bb__12\"\nWCET=4", width="0.01"];
+_thrFunc0___bb__13 [fontsize=10, label="\"_thrFunc0___bb__13\"\nWCET=4", width="0.01"];
+_thrFunc0___bb__14 [fontsize=10, label="_thrFunc0___bb__14\n(_thrFunc0_)mysingle\nWCET=13", width="0.01"];
+_thrFunc0___bb__16 [fontsize=10, label="\"_thrFunc0___bb__16\"\nWCET=5", shape=diamond, width="0.01"];
+_thrFunc0___bb8 [fontsize=10, label="\"_thrFunc0___bb8\"\nWCET=4", width="0.01"];
+_thrFunc0___bb8__1 [fontsize=10, label="\"_thrFunc0___bb8__1\"\nWCET=4", width="0.01"];
+_thrFunc0___bb8__2 [fontsize=10, label="_thrFunc0___bb8__2\nCALL fib\nWCET=13", width="0.01"];
+_thrFunc0___bb8__3 [fontsize=10, label="\"_thrFunc0___bb8__3\"\nWCET=4", width="0.01"];
+_thrFunc0___bb8__4 [fontsize=10, label="\"_thrFunc0___bb8__4\"\nWCET=0", width="0.01"];
+_thrFunc0___bb12 [fontsize=10, label="_thrFunc0___bb12\n(_thrFunc0_)leaving_single\nWCET=13", width="0.01"];
+_thrFunc0___bb12__1 [fontsize=10, label="\"_thrFunc0___bb12__1\"\nWCET=0", width="0.01"];
+_thrFunc0___bb13 [color=green, fontsize=10, label="_thrFunc0___bb13\n(_thrFunc0_)taskwait\nWCET=13", style=filled, width="0.01"];
+_thrFunc0__entry [color="white", fontsize=10, height="0.01", label="_thrFunc0__entry", width="0.01"];
+_thrFunc0__exit [color="white", fontsize=10, label="_thrFunc0__exit", width="0.01"];
+fib__bb [fontsize=10, label="\"fib__bb\"\nWCET=4", width="0.01"];
+fib__bb__8 [fontsize=10, label="\"fib__bb__8\"\nWCET=4", width="0.01"];
+fib__bb__10 [fontsize=10, label="\"fib__bb__10\"\nWCET=5", shape=diamond, width="0.01"];
+fib__bb4 [fontsize=10, label="\"fib__bb4\"\nWCET=4", width="0.01"];
+fib__bb4__2 [fontsize=10, label="\"fib__bb4__2\"\nWCET=5", width="0.01"];
+fib__bb4__3 [fontsize=10, label="\"fib__bb4__3\"\nWCET=0", width="0.01"];
+fib__bb7 [color=aquamarine, fontsize=10, label="fib__bb7\nCREATE _taskFunc0_\nWCET=13", style=filled, width="0.01"];
+fib__bb7__1 [color=aquamarine, fontsize=10, label="fib__bb7__1\nCREATE _taskFunc1_\nWCET=13", style=filled, width="0.01"];
+fib__bb7__2 [color=green, fontsize=10, label="fib__bb7__2\n(fib)taskwait\nWCET=13", style=filled, width="0.01"];
+fib__bb7__3 [fontsize=10, label="\"fib__bb7__3\"\nWCET=4", width="0.01"];
+fib__bb7__4 [fontsize=10, label="\"fib__bb7__4\"\nWCET=4", width="0.01"];
+fib__bb7__6 [fontsize=10, label="\"fib__bb7__6\"\nWCET=6", width="0.01"];
+fib__bb7__7 [fontsize=10, label="\"fib__bb7__7\"\nWCET=0", width="0.01"];
+fib__bb13 [fontsize=10, label="\"fib__bb13\"\nWCET=4", width="0.01"];
+fib__bb13__1 [fontsize=10, label="\"fib__bb13__1\"\nRETURN\nWCET=0", width="0.01"];
+fib_entry [color="white", fontsize=10, height="0.01", label="fib_entry", width="0.01"];
+fib_exit [color="white", fontsize=10, label="fib_exit", width="0.01"];
+_taskFunc0___bb [fontsize=10, label="\"_taskFunc0___bb\"\nWCET=4", width="0.01"];
+_taskFunc0___bb__7 [fontsize=10, label="\"_taskFunc0___bb__7\"\nWCET=4", width="0.01"];
+_taskFunc0___bb__9 [fontsize=10, label="\"_taskFunc0___bb__9\"\nWCET=4", width="0.01"];
+_taskFunc0___bb__11 [fontsize=10, label="\"_taskFunc0___bb__11\"\nWCET=4", width="0.01"];
+_taskFunc0___bb__13 [fontsize=10, label="\"_taskFunc0___bb__13\"\nWCET=4", width="0.01"];
+_taskFunc0___bb__14 [fontsize=10, label="\"_taskFunc0___bb__14\"\nWCET=4", width="0.01"];
+_taskFunc0___bb__16 [fontsize=10, label="\"_taskFunc0___bb__16\"\nWCET=4", width="0.01"];
+_taskFunc0___bb__18 [fontsize=10, label="\"_taskFunc0___bb__18\"\nWCET=6", width="0.01"];
+_taskFunc0___bb__19 [fontsize=10, label="\"_taskFunc0___bb__19\"\nWCET=4", width="0.01"];
+_taskFunc0___bb__20 [fontsize=10, label="\"_taskFunc0___bb__20\"\nWCET=4", width="0.01"];
+_taskFunc0___bb__22 [fontsize=10, label="_taskFunc0___bb__22\nCALL fib\nWCET=15", width="0.01"];
+_taskFunc0___bb__23 [fontsize=10, label="\"_taskFunc0___bb__23\"\nWCET=4", width="0.01"];
+_taskFunc0___bb__24 [fontsize=10, label="\"_taskFunc0___bb__24\"\nWCET=4", width="0.01"];
+_taskFunc0___bb__25 [fontsize=10, label="\"_taskFunc0___bb__25\"\nWCET=0", width="0.01"];
+_taskFunc0___bb13 [fontsize=10, label="\"_taskFunc0___bb13\"\nWCET=4", width="0.01"];
+_taskFunc0___bb13__2 [fontsize=10, label="_taskFunc0___bb13__2\n(_taskFunc0_)taskenv_free\nWCET=13", width="0.01"];
+_taskFunc0__entry [color="white", fontsize=10, height="0.01", label="_taskFunc0__entry", width="0.01"];
+_taskFunc0__exit [color="white", fontsize=10, label="_taskFunc0__exit", width="0.01"];
+_taskFunc1___bb [fontsize=10, label="\"_taskFunc1___bb\"\nWCET=4", width="0.01"];
+_taskFunc1___bb__7 [fontsize=10, label="\"_taskFunc1___bb__7\"\nWCET=4", width="0.01"];
+_taskFunc1___bb__9 [fontsize=10, label="\"_taskFunc1___bb__9\"\nWCET=4", width="0.01"];
+_taskFunc1___bb__11 [fontsize=10, label="\"_taskFunc1___bb__11\"\nWCET=4", width="0.01"];
+_taskFunc1___bb__13 [fontsize=10, label="\"_taskFunc1___bb__13\"\nWCET=4", width="0.01"];
+_taskFunc1___bb__14 [fontsize=10, label="\"_taskFunc1___bb__14\"\nWCET=4", width="0.01"];
+_taskFunc1___bb__16 [fontsize=10, label="\"_taskFunc1___bb__16\"\nWCET=4", width="0.01"];
+_taskFunc1___bb__18 [fontsize=10, label="\"_taskFunc1___bb__18\"\nWCET=6", width="0.01"];
+_taskFunc1___bb__19 [fontsize=10, label="\"_taskFunc1___bb__19\"\nWCET=4", width="0.01"];
+_taskFunc1___bb__20 [fontsize=10, label="\"_taskFunc1___bb__20\"\nWCET=4", width="0.01"];
+_taskFunc1___bb__22 [fontsize=10, label="_taskFunc1___bb__22\nCALL fib\nWCET=15", width="0.01"];
+_taskFunc1___bb__23 [fontsize=10, label="\"_taskFunc1___bb__23\"\nWCET=4", width="0.01"];
+_taskFunc1___bb__24 [fontsize=10, label="\"_taskFunc1___bb__24\"\nWCET=4", width="0.01"];
+_taskFunc1___bb__25 [fontsize=10, label="\"_taskFunc1___bb__25\"\nWCET=0", width="0.01"];
+_taskFunc1___bb13 [fontsize=10, label="\"_taskFunc1___bb13\"\nWCET=4", width="0.01"];
+_taskFunc1___bb13__2 [fontsize=10, label="_taskFunc1___bb13__2\n(_taskFunc1_)taskenv_free\nWCET=13", width="0.01"];
+_taskFunc1__entry [color="white", fontsize=10, height="0.01", label="_taskFunc1__entry", width="0.01"];
+_taskFunc1__exit [color="white", fontsize=10, label="_taskFunc1__exit", width="0.01"];
+_thrFunc0___bb -> _thrFunc0___bb__6  [key=0];
+_thrFunc0___bb__6 -> _thrFunc0___bb__8  [key=0];
+_thrFunc0___bb__8 -> _thrFunc0___bb__10  [key=0];
+_thrFunc0___bb__10 -> _thrFunc0___bb__12  [key=0];
+_thrFunc0___bb__12 -> _thrFunc0___bb__13  [key=0];
+_thrFunc0___bb__13 -> _thrFunc0___bb__14  [key=0];
+_thrFunc0___bb__14 -> _thrFunc0___bb__16  [key=0];
+_thrFunc0___bb__16 -> _thrFunc0___bb8  [key=0];
+_thrFunc0___bb__16 -> _thrFunc0___bb12  [key=0];
+_thrFunc0___bb8 -> _thrFunc0___bb8__1  [key=0];
+_thrFunc0___bb8__1 -> _thrFunc0___bb8__2  [key=0];
+_thrFunc0___bb8__2 -> fib_entry  [color=blue, key=0];
+_thrFunc0___bb8__3 -> _thrFunc0___bb8__4  [key=0];
+_thrFunc0___bb8__4 -> _thrFunc0___bb12  [key=0];
+_thrFunc0___bb12 -> _thrFunc0___bb12__1  [key=0];
+_thrFunc0___bb12__1 -> _thrFunc0___bb13  [key=0];
+_thrFunc0___bb13 -> _thrFunc0__exit  [key=0];
+_thrFunc0__entry -> _thrFunc0___bb  [key=0];
+fib__bb -> fib__bb__8  [key=0];
+fib__bb__8 -> fib__bb__10  [key=0];
+fib__bb__10 -> fib__bb4  [key=0];
+fib__bb__10 -> fib__bb7  [key=0];
+fib__bb4 -> fib__bb4__2  [key=0];
+fib__bb4__2 -> fib__bb4__3  [key=0];
+fib__bb4__3 -> fib__bb13  [key=0];
+fib__bb7 -> fib__bb7__1  [key=0];
+fib__bb7 -> _taskFunc0__entry  [color=blue, key=0];
+fib__bb7__1 -> fib__bb7__2  [key=0];
+fib__bb7__1 -> _taskFunc1__entry  [color=blue, key=0];
+fib__bb7__2 -> fib__bb7__3  [key=0];
+fib__bb7__3 -> fib__bb7__4  [key=0];
+fib__bb7__4 -> fib__bb7__6  [key=0];
+fib__bb7__6 -> fib__bb7__7  [key=0];
+fib__bb7__7 -> fib__bb13  [key=0];
+fib__bb13 -> fib__bb13__1  [key=0];
+fib__bb13__1 -> fib_exit  [key=0];
+fib_entry -> fib__bb  [key=0];
+fib_exit -> _thrFunc0___bb8__3  [color=red, key=0];
+fib_exit -> _taskFunc0___bb__23  [color=red, key=0];
+fib_exit -> _taskFunc1___bb__23  [color=red, key=0];
+_taskFunc0___bb -> _taskFunc0___bb__7  [key=0];
+_taskFunc0___bb__7 -> _taskFunc0___bb__9  [key=0];
+_taskFunc0___bb__9 -> _taskFunc0___bb__11  [key=0];
+_taskFunc0___bb__11 -> _taskFunc0___bb__13  [key=0];
+_taskFunc0___bb__13 -> _taskFunc0___bb__14  [key=0];
+_taskFunc0___bb__14 -> _taskFunc0___bb__16  [key=0];
+_taskFunc0___bb__16 -> _taskFunc0___bb__18  [key=0];
+_taskFunc0___bb__18 -> _taskFunc0___bb__19  [key=0];
+_taskFunc0___bb__19 -> _taskFunc0___bb__20  [key=0];
+_taskFunc0___bb__20 -> _taskFunc0___bb__22  [key=0];
+_taskFunc0___bb__22 -> fib_entry  [color=blue, key=0];
+_taskFunc0___bb__23 -> _taskFunc0___bb__24  [key=0];
+_taskFunc0___bb__24 -> _taskFunc0___bb__25  [key=0];
+_taskFunc0___bb__25 -> _taskFunc0___bb13  [key=0];
+_taskFunc0___bb13 -> _taskFunc0___bb13__2  [key=0];
+_taskFunc0___bb13__2 -> _taskFunc0__exit  [key=0];
+_taskFunc0__entry -> _taskFunc0___bb  [key=0];
+_taskFunc0__exit -> fib__bb7__2  [color=green, key=0];
+_taskFunc1___bb -> _taskFunc1___bb__7  [key=0];
+_taskFunc1___bb__7 -> _taskFunc1___bb__9  [key=0];
+_taskFunc1___bb__9 -> _taskFunc1___bb__11  [key=0];
+_taskFunc1___bb__11 -> _taskFunc1___bb__13  [key=0];
+_taskFunc1___bb__13 -> _taskFunc1___bb__14  [key=0];
+_taskFunc1___bb__14 -> _taskFunc1___bb__16  [key=0];
+_taskFunc1___bb__16 -> _taskFunc1___bb__18  [key=0];
+_taskFunc1___bb__18 -> _taskFunc1___bb__19  [key=0];
+_taskFunc1___bb__19 -> _taskFunc1___bb__20  [key=0];
+_taskFunc1___bb__20 -> _taskFunc1___bb__22  [key=0];
+_taskFunc1___bb__22 -> fib_entry  [color=blue, key=0];
+_taskFunc1___bb__23 -> _taskFunc1___bb__24  [key=0];
+_taskFunc1___bb__24 -> _taskFunc1___bb__25  [key=0];
+_taskFunc1___bb__25 -> _taskFunc1___bb13  [key=0];
+_taskFunc1___bb13 -> _taskFunc1___bb13__2  [key=0];
+_taskFunc1___bb13__2 -> _taskFunc1__exit  [key=0];
+_taskFunc1__entry -> _taskFunc1___bb  [key=0];
+_taskFunc1__exit -> fib__bb7__2  [color=green, key=0];
+subgraph "cluster__thrFunc0_" {
+label=_thrFunc0_
+style="bold"
+color="blue"
+"_thrFunc0___bb"
+"_thrFunc0___bb__6"
+"_thrFunc0___bb__8"
+"_thrFunc0___bb__10"
+"_thrFunc0___bb__12"
+"_thrFunc0___bb__13"
+"_thrFunc0___bb__14"
+"_thrFunc0___bb__16"
+"_thrFunc0___bb8"
+"_thrFunc0___bb8__1"
+"_thrFunc0___bb8__2"
+"_thrFunc0___bb8__3"
+"_thrFunc0___bb8__4"
+"_thrFunc0___bb12"
+"_thrFunc0___bb12__1"
+"_thrFunc0___bb13"
+
+"_thrFunc0__entry"
+"_thrFunc0__exit"
+}
+subgraph "cluster_fib" {
+label=fib
+style="bold"
+"fib__bb"
+"fib__bb__8"
+"fib__bb__10"
+"fib__bb4"
+"fib__bb4__2"
+"fib__bb4__3"
+"fib__bb7"
+"fib__bb7__1"
+"fib__bb7__2"
+"fib__bb7__3"
+"fib__bb7__4"
+"fib__bb7__6"
+"fib__bb7__7"
+"fib__bb13"
+"fib__bb13__1"
+"fib_entry"
+"fib_exit"
+}
+subgraph "cluster__taskFunc0_" {
+label=_taskFunc0_
+style="bold"
+"_taskFunc0___bb"
+"_taskFunc0___bb__7"
+"_taskFunc0___bb__9"
+"_taskFunc0___bb__11"
+"_taskFunc0___bb__13"
+"_taskFunc0___bb__14"
+"_taskFunc0___bb__16"
+"_taskFunc0___bb__18"
+"_taskFunc0___bb__19"
+"_taskFunc0___bb__20"
+"_taskFunc0___bb__22"
+"_taskFunc0___bb__23"
+"_taskFunc0___bb__24"
+"_taskFunc0___bb__25"
+"_taskFunc0___bb13"
+"_taskFunc0___bb13__2"
+
+"_taskFunc0__entry"
+"_taskFunc0__exit"
+}
+subgraph "cluster__taskFunc1_" {
+label=_taskFunc1_
+style="bold"
+"_taskFunc1___bb"
+"_taskFunc1___bb__7"
+"_taskFunc1___bb__9"
+"_taskFunc1___bb__11"
+"_taskFunc1___bb__13"
+"_taskFunc1___bb__14"
+"_taskFunc1___bb__16"
+"_taskFunc1___bb__18"
+"_taskFunc1___bb__19"
+"_taskFunc1___bb__20"
+"_taskFunc1___bb__22"
+"_taskFunc1___bb__23"
+"_taskFunc1___bb__24"
+"_taskFunc1___bb__25"
+"_taskFunc1___bb13"
+"_taskFunc1___bb13__2"
+
+"_taskFunc1__entry"
+"_taskFunc1__exit"
+}
+}

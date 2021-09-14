@@ -1,0 +1,43 @@
+digraph "" {
+  size="10,8";
+  rankdir=TB;
+  center=1;
+  rotate=0;
+   {
+   node [shape=plaintext,fontsize=10];
+   "Call graph for health_ompi_trim.alf\nMon Mar 25 23:51:17 2019"
+   }
+   0 [label="_thrFunc0_\n(size=17)",fontsize=7]
+   1 [label="ort_leaving_single\n(size=1)",fontsize=7]
+   2 [label="_taskFunc1_\n(size=28)",fontsize=7]
+   3 [label="sim_village_par\n(size=28)",fontsize=7]
+   4 [label="_taskFunc0_\n(size=12)",fontsize=7]
+   5 [label="ort_taskenv_free\n(size=3)",fontsize=7]
+   6 [label="check_patients_inside\n(size=32)",fontsize=7]
+   7 [label="removeList\n(size=26)",fontsize=7]
+   8 [label="addList\n(size=34)",fontsize=7]
+   9 [label="check_patients_assess_par\n(size=82)",fontsize=7]
+   10 [label="my_rand\n(size=24)",fontsize=7]
+   11 [label="check_patients_waiting\n(size=42)",fontsize=7]
+   12 [label="ort_taskwait\n(size=2)",fontsize=7]
+   13 [label="check_patients_realloc\n(size=32)",fontsize=7]
+   14 [label="put_in_hosp\n(size=31)",fontsize=7]
+   15 [label="check_patients_population\n(size=27)",fontsize=7]
+   0->1
+   0->2
+   0->12
+   2->3
+   2->5
+   3->4
+   3->6
+   3->9
+   3->11
+   3->12
+   3->13
+   3->15
+   4->5
+   6->8
+   9->10
+   13->7
+   15->14
+}

@@ -1,0 +1,31 @@
+digraph "" {
+  size="10,8";
+  rankdir=TB;
+  center=1;
+  rotate=0;
+   {
+   node [shape=plaintext,fontsize=10];
+   "Call graph for uts_ompi_trim.alf\nMon Mar 25 23:56:25 2019"
+   }
+   0 [label="_thrFunc0_\n(size=17)",fontsize=7]
+   1 [label="ort_taskwait\n(size=2)",fontsize=7]
+   2 [label="_taskFunc0_\n(size=21)",fontsize=7]
+   3 [label="ort_taskenv_free\n(size=3)",fontsize=7]
+   4 [label="parTreeSearch\n(size=61)",fontsize=7]
+   5 [label="uts_numChildren\n(size=33)",fontsize=7]
+   6 [label="uts_numChildren_bin\n(size=16)",fontsize=7]
+   7 [label="rng_toProb\n(size=15)",fontsize=7]
+   8 [label="_taskFunc1_\n(size=31)",fontsize=7]
+   9 [label="ort_leaving_single\n(size=1)",fontsize=7]
+   0->1
+   0->2
+   0->9
+   2->3
+   2->4
+   4->5
+   4->8
+   4->1
+   5->6
+   6->7
+   8->3
+}
