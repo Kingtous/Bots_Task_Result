@@ -1,0 +1,29 @@
+strict digraph "CFG" {
+fontsize=10;
+orientation="portrait";
+rankdir="TB";
+size="10,8";
+nqueens__bb48 [fontsize=10, label="\"nqueens__bb48(M)\"\nRETURN\nWCET=8", width="0.01"];
+nqueens_entry [color="white", fontsize=10, height="0.01", label="nqueens_entry", width="0.01"];
+nqueens__bb__22 [fontsize=10, label="\"nqueens__bb__22\"\nWCET=5", shape=diamond, width="0.01"];
+nqueens_exit [color="white", fontsize=10, label="nqueens_exit", width="0.01"];
+nqueens__bb__20 [fontsize=10, label="\"nqueens__bb__20(M)\"\nWCET=28", width="0.01"];
+_thrFunc0__exit [color="white", fontsize=10, label="_thrFunc0__exit", width="0.01"];
+_thrFunc0___bb17__1 [fontsize=10, label="\"_thrFunc0___bb17__1(M)\"\nWCET=13", width="0.01"];
+_thrFunc0___bb18 [color=green, fontsize=10, label="_thrFunc0___bb18\n(_thrFunc0_)taskwait\nWCET=13", style=filled, width="0.01"];
+_thrFunc0___bb8__10 [fontsize=10, label="\"_thrFunc0___bb8__10(M)\"\nCALL nqueens\nWCET=50", width="0.01"];
+_thrFunc0__entry [color="white", fontsize=10, height="0.01", label="_thrFunc0__entry", width="0.01"];
+_thrFunc0___bb__15 [fontsize=10, label="\"_thrFunc0___bb__15(M)\"\n(_thrFunc0_)mysingle\nWCET=37", width="0.01"];
+_thrFunc0___bb__17 [fontsize=10, label="\"_thrFunc0___bb__17\"\nWCET=5", shape=diamond, width="0.01"];
+nqueens__bb48 -> nqueens_exit;
+nqueens_entry -> nqueens__bb__20;
+nqueens__bb__22 -> nqueens__bb48;
+nqueens_exit -> _thrFunc0___bb17__1;
+nqueens__bb__20 -> nqueens__bb__22;
+_thrFunc0___bb17__1 -> _thrFunc0___bb18;
+_thrFunc0___bb18 -> _thrFunc0__exit;
+_thrFunc0___bb8__10 -> nqueens_entry  [color=blue];
+_thrFunc0__entry -> _thrFunc0___bb__15;
+_thrFunc0___bb__15 -> _thrFunc0___bb__17;
+_thrFunc0___bb__17 -> _thrFunc0___bb8__10;
+}

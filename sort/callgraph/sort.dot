@@ -5,30 +5,30 @@ digraph "" {
   rotate=0;
    {
    node [shape=plaintext,fontsize=10];
-   "Call graph for sort_ompi_trim.alf\nMon Mar 25 23:53:10 2019"
+
    }
-   0 [label="_thrFunc0_\n(size=9)",fontsize=7]
-   1 [label="_taskFunc8_\n(size=7)",fontsize=7]
-   2 [label="cilksort_par\n(size=52)",fontsize=7]
-   3 [label="cilkmerge_par\n(size=68)",fontsize=7]
-   4 [label="seqmerge\n(size=113)",fontsize=7]
-   5 [label="binsplit\n(size=34)",fontsize=7]
-   6 [label="_taskFunc0_\n(size=28)",fontsize=7]
-   7 [label="ort_taskenv_free\n(size=3)",fontsize=7]
-   8 [label="_taskFunc1_\n(size=32)",fontsize=7]
-   9 [label="ort_taskwait\n(size=2)",fontsize=7]
-   10 [label="_taskFunc2_\n(size=20)",fontsize=7]
-   11 [label="_taskFunc5_\n(size=24)",fontsize=7]
-   12 [label="_taskFunc6_\n(size=27)",fontsize=7]
-   13 [label="_taskFunc7_\n(size=33)",fontsize=7]
-   14 [label="_taskFunc3_\n(size=20)",fontsize=7]
-   15 [label="_taskFunc4_\n(size=20)",fontsize=7]
-   16 [label="seqquick\n(size=21)",fontsize=7]
-   17 [label="insertion_sort\n(size=37)",fontsize=7]
-   18 [label="seqpart\n(size=53)",fontsize=7]
-   19 [label="choose_pivot\n(size=12)",fontsize=7]
-   20 [label="med3\n(size=38)",fontsize=7]
-   21 [label="ort_leaving_single\n(size=1)",fontsize=7]
+   0 [label="_thrFunc0_\n(size=9)",fontsize=30]
+   1 [label="_taskFunc8_\n(size=7)",fontsize=30]
+   2 [label="cilksort_par\n(size=52)",fontsize=30]
+   3 [label="cilkmerge_par\n(size=68)",fontsize=30]
+   4 [label="seqmerge\n(size=113)",fontsize=30]
+   5 [label="binsplit\n(size=34)",fontsize=30]
+   6 [label="_taskFunc0_\n(size=28)",fontsize=30]
+   7 [label="ort_taskenv_free\n(size=3)",fontsize=30]
+   8 [label="_taskFunc1_\n(size=32)",fontsize=30]
+   9 [label="ort_taskwait\n(size=2)",fontsize=30]
+   10 [label="_taskFunc2_\n(size=20)",fontsize=30]
+   11 [label="_taskFunc5_\n(size=24)",fontsize=30]
+   12 [label="_taskFunc6_\n(size=27)",fontsize=30]
+   13 [label="_taskFunc7_\n(size=33)",fontsize=30]
+   14 [label="_taskFunc3_\n(size=20)",fontsize=30]
+   15 [label="_taskFunc4_\n(size=20)",fontsize=30]
+   16 [label="seqquick\n(size=21)",fontsize=30]
+   17 [label="insertion_sort\n(size=37)",fontsize=30]
+   18 [label="seqpart\n(size=53)",fontsize=30]
+   19 [label="choose_pivot\n(size=12)",fontsize=30]
+   20 [label="med3\n(size=38)",fontsize=30]
+   21 [label="ort_leaving_single\n(size=1)",fontsize=30]
    0->1
    0->21
    0->9

@@ -1,0 +1,27 @@
+digraph "CFG" {
+fontsize=30;
+orientation="portrait";
+rankdir="TB";
+size="10,8";
+_thrFunc0___bb__12 [fontsize=30, label="\"_thrFunc0___bb__12\"\nWCET=5", shape=diamond, width="0.01"];
+_thrFunc0___bb [fontsize=30, label="\"_thrFunc0___bb\"\nWCET=4", width="0.01"];
+_thrFunc0___bb3 [fontsize=30, label="\"_thrFunc0___bb3\"\nWCET=4", width="0.01"];
+_thrFunc0___bb__10 [fontsize=30, label="_thrFunc0___bb__10\n(_thrFunc0_)mysingle\nWCET=13", width="0.01"];
+_thrFunc0___bb3__7 [fontsize=30, label="\"_thrFunc0___bb3__7\"\nWCET=0", width="0.01"];
+_thrFunc0__exit [color="white", fontsize=30, label="_thrFunc0__exit", width="0.01"];
+_thrFunc0___bb4__1 [fontsize=30, label="\"_thrFunc0___bb4__1\"\nWCET=4", width="0.01"];
+_thrFunc0___bb86 [color=green, fontsize=30, label="_thrFunc0___bb86\n(_thrFunc0_)taskwait\nWCET=13", style=filled, width="0.01"];
+_thrFunc0___bb85__1 [fontsize=30, label="\"_thrFunc0___bb85__1\"\nWCET=0", width="0.01"];
+_thrFunc0___bb4 [fontsize=30, label="\"_thrFunc0___bb4\"\nWCET=4", width="0.01"];
+_thrFunc0___bb85 [fontsize=30, label="_thrFunc0___bb85\n(_thrFunc0_)leaving_single\nWCET=13", width="0.01"];
+_thrFunc0___bb__12 -> _thrFunc0___bb3  [key=0];
+_thrFunc0___bb__12 -> _thrFunc0___bb85  [key=0];
+_thrFunc0___bb -> _thrFunc0___bb__10  [key=0];
+_thrFunc0___bb3 -> _thrFunc0___bb3__7  [key=0];
+_thrFunc0___bb__10 -> _thrFunc0___bb__12  [key=0];
+_thrFunc0___bb3__7 -> _thrFunc0___bb4  [key=0];
+_thrFunc0___bb86 -> _thrFunc0__exit  [key=0];
+_thrFunc0___bb85__1 -> _thrFunc0___bb86  [key=0];
+_thrFunc0___bb4 -> _thrFunc0___bb4__1  [key=0];
+_thrFunc0___bb85 -> _thrFunc0___bb85__1  [key=0];
+}

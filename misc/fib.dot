@@ -1,0 +1,29 @@
+strict digraph "CFG" {
+fontsize=10;
+orientation="portrait";
+rankdir="TB";
+size="10,8";
+fib_entry [color="white", fontsize=10, height="0.01", label="fib_entry", width="0.01"];
+fib__bb__10 [fontsize=10, label="\"fib__bb__10\"\nWCET=5", shape=diamond, width="0.01"];
+fib__bb__8 [fontsize=10, label="\"fib__bb__8(M)\"\nWCET=8", width="0.01"];
+fib__bb13__1 [fontsize=10, label="\"fib__bb13__1(M)\"\nRETURN\nWCET=13", width="0.01"];
+fib_exit [color="white", fontsize=10, label="fib_exit", width="0.01"];
+_thrFunc0__exit [color="white", fontsize=10, label="_thrFunc0__exit", width="0.01"];
+_thrFunc0___bb__16 [fontsize=10, label="\"_thrFunc0___bb__16\"\nWCET=5", shape=diamond, width="0.01"];
+_thrFunc0__entry [color="white", fontsize=10, height="0.01", label="_thrFunc0__entry", width="0.01"];
+_thrFunc0___bb8__2 [fontsize=10, label="\"_thrFunc0___bb8__2(M)\"\nCALL fib\nWCET=21", width="0.01"];
+_thrFunc0___bb12__1 [fontsize=10, label="\"_thrFunc0___bb12__1(M)\"\nWCET=17", width="0.01"];
+_thrFunc0___bb13 [color=green, fontsize=10, label="_thrFunc0___bb13\n(_thrFunc0_)taskwait\nWCET=13", style=filled, width="0.01"];
+_thrFunc0___bb__14 [fontsize=10, label="\"_thrFunc0___bb__14(M)\"\n(_thrFunc0_)mysingle\nWCET=37", width="0.01"];
+fib_entry -> fib__bb__8;
+fib__bb__10 -> fib__bb13__1;
+fib__bb__8 -> fib__bb__10;
+fib__bb13__1 -> fib_exit;
+fib_exit -> _thrFunc0___bb12__1;
+_thrFunc0___bb__16 -> _thrFunc0___bb8__2;
+_thrFunc0__entry -> _thrFunc0___bb__14;
+_thrFunc0___bb8__2 -> fib_entry  [color=blue];
+_thrFunc0___bb12__1 -> _thrFunc0___bb13;
+_thrFunc0___bb13 -> _thrFunc0__exit;
+_thrFunc0___bb__14 -> _thrFunc0___bb__16;
+}

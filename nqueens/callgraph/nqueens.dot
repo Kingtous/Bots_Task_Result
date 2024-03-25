@@ -5,15 +5,14 @@ digraph "" {
   rotate=0;
    {
    node [shape=plaintext,fontsize=10];
-   "Call graph for nqueens_ompi_trim.alf\nMon Mar 25 23:52:22 2019"
    }
-   0 [label="_thrFunc0_\n(size=21)",fontsize=7]
-   1 [label="nqueens\n(size=46)",fontsize=7]
-   2 [label="_taskFunc0_\n(size=48)",fontsize=7]
-   3 [label="ok\n(size=48)",fontsize=7]
-   4 [label="ort_taskenv_free\n(size=3)",fontsize=7]
-   5 [label="ort_taskwait\n(size=2)",fontsize=7]
-   6 [label="ort_leaving_single\n(size=1)",fontsize=7]
+   0 [label="_thrFunc0_\n(size=21)",fontsize=30]
+   1 [label="nqueens\n(size=46)",fontsize=30]
+   2 [label="_taskFunc0_\n(size=48)",fontsize=30]
+   3 [label="ok\n(size=48)",fontsize=30]
+   4 [label="ort_taskenv_free\n(size=3)",fontsize=30]
+   5 [label="ort_taskwait\n(size=2)",fontsize=30]
+   6 [label="ort_leaving_single\n(size=1)",fontsize=30]
    0->1
    0->6
    0->5

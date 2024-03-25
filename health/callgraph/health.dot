@@ -5,24 +5,24 @@ digraph "" {
   rotate=0;
    {
    node [shape=plaintext,fontsize=10];
-   "Call graph for health_ompi_trim.alf\nMon Mar 25 23:51:17 2019"
+
    }
-   0 [label="_thrFunc0_\n(size=17)",fontsize=7]
-   1 [label="ort_leaving_single\n(size=1)",fontsize=7]
-   2 [label="_taskFunc1_\n(size=28)",fontsize=7]
-   3 [label="sim_village_par\n(size=28)",fontsize=7]
-   4 [label="_taskFunc0_\n(size=12)",fontsize=7]
-   5 [label="ort_taskenv_free\n(size=3)",fontsize=7]
-   6 [label="check_patients_inside\n(size=32)",fontsize=7]
-   7 [label="removeList\n(size=26)",fontsize=7]
-   8 [label="addList\n(size=34)",fontsize=7]
-   9 [label="check_patients_assess_par\n(size=82)",fontsize=7]
-   10 [label="my_rand\n(size=24)",fontsize=7]
-   11 [label="check_patients_waiting\n(size=42)",fontsize=7]
-   12 [label="ort_taskwait\n(size=2)",fontsize=7]
-   13 [label="check_patients_realloc\n(size=32)",fontsize=7]
-   14 [label="put_in_hosp\n(size=31)",fontsize=7]
-   15 [label="check_patients_population\n(size=27)",fontsize=7]
+   0 [label="_thrFunc0_\n(size=17)",fontsize=30]
+   1 [label="ort_leaving_single\n(size=1)",fontsize=30]
+   2 [label="_taskFunc1_\n(size=28)",fontsize=30]
+   3 [label="sim_village_par\n(size=28)",fontsize=30]
+   4 [label="_taskFunc0_\n(size=12)",fontsize=30]
+   5 [label="ort_taskenv_free\n(size=3)",fontsize=30]
+   6 [label="check_patients_inside\n(size=32)",fontsize=30]
+   7 [label="removeList\n(size=26)",fontsize=30]
+   8 [label="addList\n(size=34)",fontsize=30]
+   9 [label="check_patients_assess_par\n(size=82)",fontsize=30]
+   10 [label="my_rand\n(size=24)",fontsize=30]
+   11 [label="check_patients_waiting\n(size=42)",fontsize=30]
+   12 [label="ort_taskwait\n(size=2)",fontsize=30]
+   13 [label="check_patients_realloc\n(size=32)",fontsize=30]
+   14 [label="put_in_hosp\n(size=31)",fontsize=30]
+   15 [label="check_patients_population\n(size=27)",fontsize=30]
    0->1
    0->2
    0->12

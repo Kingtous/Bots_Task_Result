@@ -3,9 +3,9 @@ center=1;
 rankdir=TB;
 rotate=0;
 size="10,8";
-0 [fontsize=7, label="_thrFunc0_\n(size=72)"];
-1 [fontsize=7, label="ort_taskwait\n(size=2)"];
-3 [fontsize=7, label="_taskFunc0_\n(size=154)"];
+0 [fontsize=30, label="_thrFunc0_\n(size=72)"];
+1 [fontsize=30, label="ort_taskwait\n(size=2)"];
+3 [fontsize=30, label="_taskFunc0_\n(size=154)"];
 0 -> 3  [key=0];
 3 -> 1  [color=green, key=0];
 }

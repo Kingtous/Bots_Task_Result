@@ -1,0 +1,25 @@
+digraph "G" {
+center=1;
+rankdir=TB;
+rotate=0;
+size="10,8";
+0 [fontsize=30, label="_thrFunc0_\n(size=9)"];
+1 [fontsize=30, label="_taskFunc8_\n(size=7)"];
+9 [fontsize=30, label="ort_taskwait\n(size=2)"];
+10 [fontsize=30, label="_taskFunc2_\n(size=20)"];
+11 [fontsize=30, label="_taskFunc5_\n(size=24)"];
+12 [fontsize=30, label="_taskFunc6_\n(size=27)"];
+13 [fontsize=30, label="_taskFunc7_\n(size=33)"];
+0 -> 1  [key=0];
+1 -> 10  [key=0];
+1 -> 11  [key=0];
+1 -> 12  [key=0];
+1 -> 13  [key=0];
+1 -> 9  [color=green, key=0];
+10 -> 10  [color=blue, key=0];
+10 -> 9  [color=green, key=0];
+11 -> 11  [color=blue, key=0];
+11 -> 9  [color=green, key=0];
+12 -> 9  [color=green, key=0];
+13 -> 9  [color=green, key=0];
+}

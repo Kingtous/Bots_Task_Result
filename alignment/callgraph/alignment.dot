@@ -1,24 +1,23 @@
 digraph "" {
-  size="10,8";
+  size="8,9";
   rankdir=TB;
   center=1;
   rotate=0;
    {
    node [shape=plaintext,fontsize=10];
-   "Call graph for alignment_ompi_trim.alf\nMon Mar 25 23:42:36 2019"
    }
-   0 [label="_thrFunc0_\n(size=72)",fontsize=7]
-   1 [label="ort_taskwait\n(size=2)",fontsize=7]
-   2 [label="ort_leaving_single\n(size=1)",fontsize=7]
-   3 [label="_taskFunc0_\n(size=154)",fontsize=7]
-   4 [label="diff\n(size=553)",fontsize=7]
-   5 [label="del\n(size=29)",fontsize=7]
-   6 [label="add\n(size=30)",fontsize=7]
-   7 [label="calc_score\n(size=28)",fontsize=7]
-   8 [label="tracepath\n(size=79)",fontsize=7]
-   9 [label="reverse_pass\n(size=135)",fontsize=7]
-   10 [label="forward_pass\n(size=130)",fontsize=7]
-   11 [label="ort_taskenv_free\n(size=3)",fontsize=7]
+   0 [label="_thrFunc0_\n(size=72)",fontsize=30]
+   1 [label="ort_taskwait\n(size=2)",fontsize=30]
+   2 [label="ort_leaving_single\n(size=1)",fontsize=30]
+   3 [label="_taskFunc0_\n(size=154)",fontsize=30]
+   4 [label="diff\n(size=553)",fontsize=30]
+   5 [label="del\n(size=29)",fontsize=30]
+   6 [label="add\n(size=30)",fontsize=30]
+   7 [label="calc_score\n(size=28)",fontsize=30]
+   8 [label="tracepath\n(size=79)",fontsize=30]
+   9 [label="reverse_pass\n(size=135)",fontsize=30]
+   10 [label="forward_pass\n(size=130)",fontsize=30]
+   11 [label="ort_taskenv_free\n(size=3)",fontsize=30]
    0->1
    0->2
    0->3
